@@ -1,0 +1,221 @@
+body {
+    --light-blue: #c6e2e9ff;
+    --tan: #dab894ff;
+    --dark-brown: #73573d;
+    --shadow: #73573d40;
+    --light-tan: #dab8944a;
+    background-color: var(--light-tan);
+    color: var(--dark-brown);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Cherry Bomb One', sans-serif;
+    font-size: 80px;
+    color: var(--light-blue);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--dark-brown);
+    text-align: center;
+    text-shadow: 0px 10px 10px var(--shadow);
+}
+
+h2 {
+    font-family: 'Cherry Bomb One', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+}
+
+p {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tan-background {
+    background-color: var(--tan);
+    width: 100%;
+}
+
+#title-full {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-section {
+    margin-left: 1%;
+}
+
+#title {
+    margin-right: 35%;
+}
+
+#title-collapse {
+    display: none;
+}
+
+#collapse-info-section {
+    display: none;
+}
+
+#menu-full {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-collapse {
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+    #title-full {
+        display: none;
+    }
+    #title-collapse {
+        display: flex;
+        flex-direction: column;
+    }
+    #collapse-info-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .collapse-info {
+        margin-left: 5%;
+        min-width: 100px;
+    }
+    #title {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 500px) {
+    .collapse-info-container {
+        display: none;
+    }
+    .collapse-info {
+        display: none;
+    }
+    #menu-full {
+        display: none;
+    }
+    #menu-collapse {
+        display: block;
+        padding: 12px;
+    }
+    #menu-icon {
+        height: 30px;
+    }
+}
+
+
+#services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+.service-image {
+    width: 300px;
+    height: 300px;
+}
+
+.drop-shadow {
+    box-shadow: 0px 5px 10px var(--shadow);
+}
+
+#appointment-tile-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.appointment-tile {
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    margin-bottom: 2%;
+    padding: 1%;
+    width: 25%;
+    min-width: 175px;
+}
+
+#specials {
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    margin: 2%
+}
+
+#special-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.special-tile {
+    background-color: var(--tan);
+    border-radius: 15px;
+    margin-bottom: 2%;
+    padding: 1%;
+    width: 20%;
+    min-width: 175px;
+}
+
+#bottom-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bottom-bar-tile {
+    background-color: var(--light-blue);
+    border-radius: 15px;
+    margin: 2%;
+    padding: 1%;
+    width: 20%;
+    min-width: 175px;
+}
+
+.facebook {
+    width: 30px;
+    padding-right: 10px;
+    padding-top: 7px;
+    border: none;
+}
+
+.map {
+    width: 30px;
+    padding-top: 7px;
+}
+
+#payment-types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#credit-cards {
+    width: 40%;
+    min-width: 100px;
+}
+
+#apple-pay {
+    width: 15%;
+    min-width: 40px;
+}
+
+

@@ -1,0 +1,79 @@
+body {
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /* CSS HEX */
+    --light-blue: #a8d5e2ff;
+    --orange-soda: #f85a3eff;
+    --green-yellow-crayola: #edeba0ff;
+    --midnight-green-eagle-green: #114b5fff;
+    --space-cadet: #212738ff;
+
+    background-image: linear-gradient(var(--light-blue), white);
+
+}
+
+h1, h2, h3, p, li {
+    color: var(--midnight-green-eagle-green)
+}
+.text-info {
+    text-align: center;
+}
+
+h3, p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h2, h1 {
+    text-align: center;
+}
+
+#website-images {
+    display: flex;
+
+}
+
+#original-website-img {
+    width: 40%;
+    margin: 5%
+}
+
+#lofi-computer {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#lofi-tablet {
+    width: 80%;
+    margin: 10%;
+}
+#lofi-phone {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 5%;
+}
+#style-guide {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#hifi-computer {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#hifi-tablet {
+    width: 80%;
+    margin: 10%;
+}
+#hifi-phone {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
