@@ -31,13 +31,20 @@ h2 {
     color: var(--cultured);
 }
 
-p {
+h4 {
+    padding: 5%;
     color: var(--bittersweet);
+    padding-bottom: 0;
+}
+
+.description {
+    color: var(--lemon-meringue);
+    padding-left: 15%;
 }
 
 .project-tile {
     background-color: var(--sandy-brown);
-    border-radius: 3px;
+    border-radius: 10px;
     width: 30%;
     margin: 5%;
     padding: 1%;
@@ -58,8 +65,6 @@ p {
 }
 
 .title {
-    /* transform: translate(50%, -500%);
-    position: relative; */
     text-align: center;
 }
 

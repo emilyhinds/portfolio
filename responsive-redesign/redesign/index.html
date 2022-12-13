@@ -2,23 +2,46 @@
 <html>
 <head>
     <title>Hoa Salon</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="http://fonts.cdnfonts.com/css/cherry-bomb-one" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <meta name="Hoa Salon" content="Nail salon in Seattle, WA">
 </head>
 <body>
-    <nav id="nav-bar" class="navbar navbar-default">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../about.html">About Me</a></li>
-            <li><a href="../../personas-and-storyboarding/index.html">Personas and Storyboarding</a></li>
-            <li><a href="../handin/index.html">Responsive Redesign</a></li>
-            <li><a href="../../iterative-design/index.html">Iterative Design</a></li>
-            <li><a href="../../development/index.html">Development</a></li>
-
-          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../personas-and-storyboarding/index.html">Personas and Storyboarding</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Responsive Redesign
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../../responsive-redesign/handin/index.html">Writeup</a></li>
+                  <li><a class="dropdown-item" href="../../responsive-redesign/redesign/index.html">Redesigned Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../iterative-design/index.html">Iterative Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../development/index.html">Development</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </nav>
     <div id="title-full">
