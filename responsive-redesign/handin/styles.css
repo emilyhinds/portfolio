@@ -30,7 +30,7 @@ h1, h2, h3, h4, p, li {
     color: var(--dark-brown);
 }
 
-.text-info {
+#text-info {
     text-align: center;
     color: var(--dark-brown);
     margin-left: 10%;
